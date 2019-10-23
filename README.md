@@ -12,7 +12,7 @@ Three important views:
 
 * **Home** view shows all the scraped data
 * **Scrape** view creates a subprocess on the server to launch Scrapy's crawling spider
-* **Search** view gets movies by title parameter in the URL query string
+* **Search** view gets movies by title parameter in the URL query string: `server/search?title=<movie title>`
 
 ## Scrapy's Spider
 The crawling spider which starts at **imdb.com**'s search page of the letter 'a' which has around **200K movie** search results
